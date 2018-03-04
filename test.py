@@ -38,3 +38,16 @@ print(mylist)
 
 for x in mylist:
     print(x)
+
+number = 1 + 2 + 3 / 4.0
+print(number)
+
+remainder = 11 % 3
+print(remainder)
+
+squared = 7 ** 2
+print(squared)
+
+
+helloworld = "je" + "" + " wor"
+print(helloworld)
