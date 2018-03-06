@@ -62,6 +62,12 @@ ki = 12
 print("LP %s %d" % (name, ki))
 
 data = ("John", "Doe", 53.44)
-format_string = "Hello"
+format_string = "Hello %s %s. Your current balance is $%f"
 test = format_string
-print("%s %s %s. Your current balance is $ %f" % (format_string, data))
+print(format_string % data)
+
+astring = "Hello world"
+print(astring[3:7])
+print(astring.upper())
+print(astring.lower())
+print(astring.startswith("1 "))
