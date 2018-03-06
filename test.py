@@ -49,5 +49,19 @@ squared = 7 ** 2
 print(squared)
 
 
-helloworld = "je" + "" + " wor"
+helloworld = "je" * 10
 print(helloworld)
+
+even_numbers = [2, 4, 6, 8]
+odd_numbers = [1, 3, 5, 7]
+all_numbers = even_numbers + odd_numbers
+print(all_numbers * 2)
+
+name = "IK"
+ki = 12
+print("LP %s %d" % (name, ki))
+
+data = ("John", "Doe", 53.44)
+format_string = "Hello"
+test = format_string
+print("%s %s %s. Your current balance is $ %f" % (format_string, data))
